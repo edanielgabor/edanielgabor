@@ -44,6 +44,10 @@ h2 {
   font-size: 20px;
 }
 
+i {
+ margin: 5%;
+}
+
 i:hover {
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
