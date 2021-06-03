@@ -4,9 +4,48 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 100%;
+  color: hsla(0, 0%, 20%, .9);
 }
 
 body {
-  background: url('assets/plane.jpg') no-repeat center center fixed;
+  background: url('assets/roadtrip.jpg') no-repeat center center fixed;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Verdana";
+}
+
+.head, .link {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5% 10%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.link {
+  border-top: 1px solid hsla(0, 0%, 30%, .8)
+}
+
+.card {
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, .6);
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+h1 {
+  font-size: 35px
+}
+
+h2 {
+  font-size: 20px;
+}
+
+i:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
